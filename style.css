@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1a1a1a;
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.container{
+    margin: 20px;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+}
+
+img#logo{
+    height: 50px;
+    width: auto;
+}
+
+.list-menu{
+    padding: 0 15px;
+}
+
+.hero-section{
+    text-align: center;
+    background-image: url('Images/img-mission-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 350px 0;
+}
+
+.hero-title{
+    background-color: #1a1a1a;
+    padding: 10px 0;
+    line-height: 2;
+}
+
+
+.content-title-section{
+    text-align: center;
+    background-color: #1a1a1a;
+    padding: 10px 0;
+    line-height: 2;
+}
+
+.content-box-section{
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-bottom: 2em ;
+}
+
+.content-box{
+    padding: 15px;
+}
+
+.content-title{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.content-image{
+    width: 300px;
+    height: 200px;
+}
+
+.location-title{
+    margin: 1em 0;
+    text-align: center;
+}
+
+.location-section{
+    background-image: url("Images/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    margin: 0 auto;
+    padding: 1px;
+
+}
+
+.location{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.location-card{
+    width: 300px;
+    height: 300px;
+    margin: 0 5px;
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+}
